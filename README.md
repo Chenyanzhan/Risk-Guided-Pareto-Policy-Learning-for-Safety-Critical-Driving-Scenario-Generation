@@ -198,7 +198,7 @@ The generated library contains **3,935 collision scenarios** collected across fi
 The scenarios cover diverse road layouts, vehicle configurations, and collision mechanisms, including lateral, crossing, and longitudinal conflicts.
 
 <p align="center">
-  <img src="21.png" alt="Overview of the generated collision scenario library" width="100%">
+  <img src="Library.png" alt="Overview of the generated collision scenario library" width="100%">
 </p>
 
 <p align="center">
@@ -255,24 +255,6 @@ PABOMORL combines three learning mechanisms:
 
 Training instructions, environment configuration, and model usage documentation will accompany the implementation.
 
----
-
-## 📁 Repository Organization
-
-| Path | Contents |
-| :--- | :--- |
-| `README.md` | Project overview and visualization gallery. |
-| `video1/` – `video7/` | Seven cases, each containing a BEV GIF and a first-person GIF. |
-| `21.png` | Collision scenario library overview. |
-
-Each case follows the same naming convention:
-
-| File | Perspective | Display Position |
-| :--- | :--- | :---: |
-| `bev.gif` | Bird’s-eye view | **Left / First** |
-| `first_person.gif` | First-person view | Right / Second |
-
----
 
 ## 📄 Paper & Citation
 
